@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:XML_Samenvoegen"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="Twee XML" Height="350" Width="525">
+    <DockPanel>
+        <Button Name="btnMerge" DockPanel.Dock="Top" Content="Merge" Width="150" Click="btnMerge_Click"></Button>
+        <WebBrowser Name="wbXML"></WebBrowser>
+    </DockPanel>
 </Window>
